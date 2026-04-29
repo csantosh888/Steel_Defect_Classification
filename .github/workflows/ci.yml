@@ -27,7 +27,7 @@ jobs:
 
       - name: Lint with Ruff
         run: |
-          ruff check Steel_Defect_Classification/ tests/
+          ruff check steel_defect/ tests/
 
       - name: Run tests
         run: |

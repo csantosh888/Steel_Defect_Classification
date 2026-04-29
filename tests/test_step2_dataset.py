@@ -13,7 +13,6 @@ import torch
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
-from steel_defect.utils import CLASS_NAMES
 from steel_defect.dataset import build_file_list, SteelDataset, create_splits
 
 
