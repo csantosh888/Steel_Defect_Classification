@@ -25,7 +25,6 @@ from steel_defect.preprocessing import overlay_gradcam
 from steel_defect.utils import (
     setup_logging,
     DATA_DIR,
-    CLASS_NAMES,
     IMAGE_SIZE,
 )
 

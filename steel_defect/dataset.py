@@ -9,7 +9,6 @@ from pathlib import Path
 
 import albumentations as A
 import cv2
-import numpy as np
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 

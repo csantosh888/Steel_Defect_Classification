@@ -10,7 +10,7 @@ import numpy as np
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
-from steel_defect.utils import setup_logging, IMAGE_SIZE
+from steel_defect.utils import setup_logging
 
 logger = setup_logging(__name__)
 
