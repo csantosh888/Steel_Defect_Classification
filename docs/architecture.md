@@ -54,7 +54,7 @@ Shared configuration: project paths, image settings, device selection, and loggi
 ## Data Flow
 
 1. **Acquisition**: `CameraSimulator.acquire_frame()` loads an image from disk, converts BGR→RGB, stores in buffer
-2. **Preprocessing**: `preprocess_frame()` resizes to 256×256, normalizes with ImageNet stats, converts to PyTorch tensor
+2. **Preprocessing**: `preprocess_frame()` resizes to 128×800, normalizes with ImageNet stats, converts to PyTorch tensor
 3. **Inference**: `DefectDetector.predict()` runs the tensor through PatchCore, extracts anomaly score and heatmap
 4. **Display**: Streamlit shows the original frame, heatmap overlay, and classification result
 5. **Logging**: Every step logs timestamps, parameters, and results to `logs/app.log`

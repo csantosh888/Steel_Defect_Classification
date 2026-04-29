@@ -21,7 +21,7 @@ This application inspects steel images and classifies them as **no_defect** or o
 
 ```bash
 # Clone and set up
-git clone <your-repo-url>
+git clone https://github.com/csantosh888/Steel_Defect_Classification
 cd steel_defect
 
 # Install dependencies (see Installation page for full details)
