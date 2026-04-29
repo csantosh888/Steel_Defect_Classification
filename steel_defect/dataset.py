@@ -12,7 +12,7 @@ import cv2
 from sklearn.model_selection import train_test_split
 from torch.utils.data import Dataset, DataLoader
 
-from steel_defect.utils import setup_logging, CLASS_NAMES, DATA_DIR, IMAGE_SIZE
+from steel_defect.utils import setup_logging, CLASS_NAMES, DATA_DIR
 
 logger = setup_logging(__name__)
 
