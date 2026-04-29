@@ -51,8 +51,7 @@ def build_file_list(data_dir: Path | str | None = None) -> list[tuple[str, int]]
                 file_list.append((str(img_path), label_idx))
 
     return sorted(file_list)
-    raise NotImplementedError("DATA-1: Implement dataset directory scanning")
-
+    
 
 def create_splits(
     file_list: list[tuple[str, int]],
@@ -83,8 +82,7 @@ def create_splits(
 
     return train_list, val_list, test_list
 
-    raise NotImplementedError("DATA-3: Implement train/val/test splitting")
-
+    
 
 class SteelDataset(Dataset):
     """
@@ -133,8 +131,7 @@ class SteelDataset(Dataset):
 
         return image, label
     
-        raise NotImplementedError("DATA-2: Implement __getitem__")
-
+       
 
 # ── Scaffold — DataLoader helper ──────────────────────────────
 

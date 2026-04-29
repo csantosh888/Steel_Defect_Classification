@@ -30,7 +30,7 @@ class SteelPredictor:
     """
     Steel defect classifier for inference.
 
-    Loads a trained SteelCNN checkpoint and classifies individual
+    Loads a trained SteelResNet18 checkpoint and classifies individual
     images into defect categories.
 
     Usage:
