@@ -7,9 +7,11 @@ opencv-python>=4.8
 numpy>=1.24
 Pillow>=10.0
 albumentations>=1.3
+opencv-python-headless
 
 # Frontend
 streamlit>=1.28
+
 
 # Data utilities
 scikit-learn>=1.3
