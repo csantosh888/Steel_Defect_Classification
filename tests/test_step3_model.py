@@ -22,7 +22,7 @@ def model():
 @pytest.fixture
 def dummy_batch():
     """Create a random input batch matching expected dimensions."""
-    return torch.randn(2, 3, IMAGE_SIZE[0], IMAGE_SIZE[1])
+    return torch.randn(2, 3, IMAGE_SIZE[1], IMAGE_SIZE[0])
 
 
 class TestModel1Init:
@@ -71,6 +71,6 @@ class TestModel2Forward:
     def test_custom_num_classes(self):
         """Model should work with a different number of classes."""
         custom_model = SteelResNet18(num_classes=3)
-        x = torch.randn(1, 3, IMAGE_SIZE[0], IMAGE_SIZE[1])
+        x = torch.randn(1, 3, IMAGE_SIZE[1], IMAGE_SIZE[0])
         output = custom_model(x)
         assert output.shape == (1, 3)

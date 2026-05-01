@@ -38,8 +38,8 @@ class TestPreprocess1TrainTransforms:
     def test_output_shape(self, dummy_image):
         transform = build_train_transforms()
         tensor = transform(image=dummy_image)["image"]
-        assert tensor.shape == (3, IMAGE_SIZE[0], IMAGE_SIZE[1]), (
-            f"Expected shape (3, {IMAGE_SIZE[0]}, {IMAGE_SIZE[1]}), "
+        assert tensor.shape == (3, IMAGE_SIZE[1], IMAGE_SIZE[0]), (
+            f"Expected shape (3, {IMAGE_SIZE[1]}, {IMAGE_SIZE[0]}), "
             f"got {tuple(tensor.shape)} — check Resize dimensions"
         )
 
@@ -74,7 +74,7 @@ class TestPreprocess2ValTransforms:
     def test_output_shape(self, dummy_image):
         transform = build_val_transforms()
         tensor = transform(image=dummy_image)["image"]
-        assert tensor.shape == (3, IMAGE_SIZE[0], IMAGE_SIZE[1])
+        assert tensor.shape == (3, IMAGE_SIZE[1], IMAGE_SIZE[0])
 
     def test_output_dtype(self, dummy_image):
         transform = build_val_transforms()

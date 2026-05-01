@@ -47,7 +47,7 @@ def predictor(checkpoint_path):
 @pytest.fixture
 def dummy_image():
     """Random RGB image matching expected input format."""
-    return np.random.randint(0, 256, (IMAGE_SIZE[0], IMAGE_SIZE[1], 3), dtype=np.uint8)
+    return np.random.randint(0, 256, (IMAGE_SIZE[1], IMAGE_SIZE[0], 3), dtype=np.uint8)
 
 
 # ── INFER-1: load_model ──────────────────────────────────
@@ -90,7 +90,7 @@ class TestInfer1LoadModel:
     def test_model_has_correct_num_classes(self, predictor):
         predictor.load_model()
         # Push a dummy tensor through to check output size
-        dummy = torch.randn(1, 3, IMAGE_SIZE[0], IMAGE_SIZE[1])
+        dummy = torch.randn(1, 3, IMAGE_SIZE[1], IMAGE_SIZE[0])
         with torch.no_grad():
             output = predictor.model(dummy)
         assert output.shape[1] == NUM_CLASSES, (

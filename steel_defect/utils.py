@@ -17,7 +17,7 @@ CHECKPOINT_PATH = MODELS_DIR / "steel_resnet18_best.pt"
 # ── Dataset Settings ──────────────────────────────────────────
 CLASS_NAMES = ["no_defect", "defect_1", "defect_2", "defect_3", "defect_4"]
 NUM_CLASSES = len(CLASS_NAMES)
-IMAGE_SIZE = (128, 800)
+IMAGE_SIZE = (800, 128)
 
 # ── Device Selection ──────────────────────────────────────────
 def get_device() -> torch.device:

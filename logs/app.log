@@ -4801,3 +4801,35 @@
 2026-04-28 22:54:22 | INFO     | steel_defect.inference    | SteelPredictor initialized | checkpoint=C:\Users\csant\AppData\Local\Temp\pytest-of-csant\pytest-9\test_auto_loads_model0\test_checkpoint.pt | device=cpu
 2026-04-28 22:54:22 | INFO     | steel_defect.inference    | Model loaded | time=227ms
 2026-04-28 22:54:22 | INFO     | steel_defect.inference    | Inference #1 | label=no_defect | confidence=0.275 | time=43.0ms
+2026-04-30 21:55:45 | INFO     | steel_defect.inference    | SteelPredictor initialized | checkpoint=C:\Users\csant\Documents\portfolios\Steel_Defect_Classification\models\steel_resnet18_best.pt | device=cpu
+2026-04-30 21:55:46 | INFO     | steel_defect.inference    | Model loaded | time=685ms
+2026-04-30 21:55:54 | INFO     | steel_defect.inference    | Inference #1 | label=defect_1 | confidence=0.995 | time=225.6ms
+2026-04-30 21:55:56 | INFO     | steel_defect.inference    | Inference #2 | label=defect_1 | confidence=0.990 | time=103.2ms
+2026-04-30 21:55:58 | INFO     | steel_defect.inference    | Inference #3 | label=defect_1 | confidence=0.993 | time=185.1ms
+2026-04-30 21:56:00 | INFO     | steel_defect.inference    | Inference #4 | label=defect_1 | confidence=0.997 | time=100.2ms
+2026-04-30 21:56:02 | INFO     | steel_defect.inference    | Inference #5 | label=defect_1 | confidence=0.998 | time=102.9ms
+2026-04-30 21:56:04 | INFO     | steel_defect.inference    | Inference #6 | label=defect_1 | confidence=0.997 | time=110.2ms
+2026-04-30 21:56:06 | INFO     | steel_defect.inference    | Inference #7 | label=defect_1 | confidence=0.961 | time=112.9ms
+2026-04-30 21:56:08 | INFO     | steel_defect.inference    | Inference #8 | label=defect_1 | confidence=0.994 | time=114.2ms
+2026-04-30 21:56:10 | INFO     | steel_defect.inference    | Inference #9 | label=defect_1 | confidence=0.999 | time=100.3ms
+2026-04-30 21:56:12 | INFO     | steel_defect.inference    | Inference #10 | label=defect_1 | confidence=0.997 | time=101.8ms
+2026-04-30 21:56:14 | INFO     | steel_defect.inference    | Inference #11 | label=defect_1 | confidence=0.765 | time=157.5ms
+2026-04-30 21:56:16 | INFO     | steel_defect.inference    | Inference #12 | label=defect_1 | confidence=0.950 | time=92.8ms
+2026-04-30 21:56:18 | INFO     | steel_defect.inference    | Inference #13 | label=defect_1 | confidence=0.962 | time=166.6ms
+2026-04-30 21:56:20 | INFO     | steel_defect.inference    | Inference #14 | label=defect_1 | confidence=0.993 | time=110.2ms
+2026-04-30 21:56:22 | INFO     | steel_defect.inference    | Inference #15 | label=defect_1 | confidence=0.998 | time=93.0ms
+2026-04-30 21:56:24 | INFO     | steel_defect.inference    | Inference #16 | label=defect_1 | confidence=0.980 | time=99.8ms
+2026-04-30 21:56:26 | INFO     | steel_defect.inference    | Inference #17 | label=defect_1 | confidence=0.997 | time=98.2ms
+2026-04-30 21:56:28 | INFO     | steel_defect.inference    | Inference #18 | label=defect_1 | confidence=0.991 | time=89.3ms
+2026-04-30 21:56:30 | INFO     | steel_defect.inference    | Inference #19 | label=defect_1 | confidence=0.987 | time=90.9ms
+2026-04-30 21:56:32 | INFO     | steel_defect.inference    | Inference #20 | label=defect_1 | confidence=0.976 | time=105.9ms
+2026-04-30 21:56:34 | INFO     | steel_defect.inference    | Inference #21 | label=defect_1 | confidence=0.995 | time=96.9ms
+2026-04-30 22:02:06 | INFO     | steel_defect.inference    | Inference #22 | label=defect_1 | confidence=0.995 | time=164.9ms
+2026-04-30 22:02:16 | INFO     | steel_defect.inference    | Inference #23 | label=defect_1 | confidence=0.990 | time=184.3ms
+2026-04-30 22:03:21 | INFO     | steel_defect.inference    | SteelPredictor initialized | checkpoint=C:\Users\csant\Documents\portfolios\Steel_Defect_Classification\models\steel_resnet18_best.pt | device=cpu
+2026-04-30 22:03:22 | INFO     | steel_defect.inference    | Model loaded | time=508ms
+2026-04-30 22:03:27 | INFO     | steel_defect.inference    | Inference #1 | label=defect_1 | confidence=0.995 | time=113.0ms
+2026-04-30 22:03:51 | INFO     | steel_defect.inference    | Inference #2 | label=defect_1 | confidence=0.868 | time=143.2ms
+2026-04-30 22:03:56 | INFO     | steel_defect.inference    | Inference #3 | label=defect_3 | confidence=0.962 | time=160.0ms
+2026-04-30 22:04:18 | INFO     | steel_defect.inference    | Inference #4 | label=defect_1 | confidence=0.891 | time=150.0ms
+2026-04-30 22:04:24 | INFO     | steel_defect.inference    | Inference #5 | label=defect_1 | confidence=0.466 | time=134.1ms

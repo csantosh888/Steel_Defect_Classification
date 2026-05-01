@@ -43,8 +43,7 @@ def setup_training(
 
     return (criterion, optimizer)
 
-    raise NotImplementedError("TRAIN-1: Set up loss function and optimizer")
-
+    
 
 def train_one_epoch(
     model: nn.Module,
@@ -82,9 +81,7 @@ def train_one_epoch(
 
     return average_loss, accuracy
     
-    raise NotImplementedError("TRAIN-2: Implement training epoch")
-
-
+    
 def validate(
     model: nn.Module,
     loader: DataLoader,
@@ -117,8 +114,7 @@ def validate(
 
     return (average_loss, accuracy)
     
-    raise NotImplementedError("TRAIN-3: Implement validation epoch")
-
+    
 
 # ── Scaffold — main training loop ─────────────────────────────
 
